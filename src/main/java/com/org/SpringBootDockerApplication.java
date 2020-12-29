@@ -11,7 +11,7 @@ public class SpringBootDockerApplication {
 
 	@GetMapping("/info")
 	public String getMessage() {
-		return " success.!!";
+		return " Successful work. ";
 	}
 
 	public static void main(String[] args) {
